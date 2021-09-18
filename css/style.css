@@ -1,0 +1,121 @@
+body{
+  overflow-x: hidden;
+}
+body p, body h2, body h3{
+  font-family: Raleway, sans-serif;
+  color: white;
+}
+body h2, body h3{
+  font-weight: bold;
+}
+section{
+  background: linear-gradient(#9198e5,#e66465);
+  min-width: 100%;
+}
+section div{
+  border:none !important;
+}
+.container{
+  background: url("../images/photo-1519389950473-47ba0277781c.webp") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-width: 100%;
+}
+.col{
+  border: 2px solid white;
+  margin: auto;
+  text-align: center;
+  margin-top: 40vh !important;
+  margin-bottom: 20px;
+}
+.col span{
+  display:inline-block;
+  color:#000;
+  margin-right: 10px; 
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+}
+.col .nom{
+  color: red;
+}
+a i{
+  font-size: 50px;
+  width:100%;
+  margin-top: 50px;
+  padding-right: 40px !important;
+  padding-bottom: 40px;
+  text-align: right;
+}
+.colonne .col{
+  margin-top: 50px !important;
+}
+.row .frontend{
+  margin-top: 20px;
+}
+.row2{
+  padding-top: 20px;
+}
+.reservia, .chouetteAgence{
+  background: white;
+}
+img{
+  max-width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin:auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 7px 5px 15px #000;
+  transition: transform 400ms ease-in-out;
+}
+.colonne img:hover{
+  transform: scale(1.15);
+}
+li{
+  list-style-type: none;
+}
+.col-lg-4 img{
+  height: 100px
+}
+.col-lg-6 img{
+  height: 150px;
+}
+.row2 p{
+  text-align:justify;
+  margin: 5px;
+}
+p{
+  text-align: center;
+  padding-top: 20px;
+}
+.colonne_contact a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-family: Raleway, sans-serif;
+}
+.colonne_contact ul{
+  padding-left: 0px;
+}
+
+@media screen and (max-width:576px){
+  .colonne{
+    width: 90vw;
+    margin: 0 auto !important;
+  }
+  .row_projets img{
+    height: 120px;
+  }
+  img{
+    margin: -5px;
+  }
+  .rounded-circle{
+    height: 50vw;
+  }
+}
+@media screen and (max-width:768px){
+  .rounded-circle{
+    margin-top: 30px;
+  }
+}
